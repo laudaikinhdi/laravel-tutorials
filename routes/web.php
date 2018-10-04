@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('ajax', 'AjaxController@index');
+Route::post('ajax', 'AjaxController@store');
