@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media (min-width: 1200px) {
+  /* Chung Nguyễn Blog */
+
+  .name {
+    height: 168px;
+  }
+  /* Website */
+
+  .webiste {
+    font-weight: bold;
+  }
+}
+
