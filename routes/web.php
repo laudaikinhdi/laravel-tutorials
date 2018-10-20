@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::view('algolia', 'algolia');
+Route::post('algolia', 'AlgoliaController@search');
