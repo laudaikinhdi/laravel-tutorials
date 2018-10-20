@@ -10,3 +10,8 @@ php artisan key:generate
 ```
 
 Cấu hình DB phù hợp
+
+Set quyền ghi cho thư mục storage/ và bootstrap/
+```
+chmod -R 777 storage/ bootstrap/
+```
